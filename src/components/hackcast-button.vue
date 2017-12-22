@@ -66,7 +66,7 @@
               'token': localStorage.getItem('token')
             }
           })
-          .then(res => console.log(`Success: ${res}`))
+          .then(res => window.location.reload())
           .catch(err => console.log(`Fail: ${err}`))
       }
     }
